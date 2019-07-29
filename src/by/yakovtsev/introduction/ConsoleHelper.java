@@ -24,7 +24,6 @@ public class ConsoleHelper {
     }
 
     public static int readInt(){
-        System.out.println("Enter int number: ");
         try {
             int i = Integer.parseInt(readString());
             return i;

@@ -30,6 +30,7 @@ public class Task1 {
         System.out.println(Arrays.toString(paragraphSortRes));
 
         task1.wordSort(paragraphSortRes);
+        //task1.lexemSort(paragraphSortRes, "i");
 
 
 
@@ -99,6 +100,33 @@ public class Task1 {
         System.out.println();
         return listSentences;
     }
+
+//    public List<String[]> lexemSort(String[] sentence, String str) {
+//        List<String[]> listSentences = new ArrayList<>();
+//        List<String[]> lexems = new ArrayList<>();
+//
+//        Comparator<String> comprator = (o1, o2) -> o1.length() - o2.length();
+//        for (int i = 0; i < sentence.length; i++) {
+//            listSentences.add(sentence[i].split("\\s"));
+//        }
+//        for (String[] s : listSentences) {
+//            if (s.toString().contains(str)){
+//                for (int i = 0; i < s.length; i++){
+//                    if (s.)
+//                }
+//                lexems.add(s.toString().split(" "));
+//            }
+//            Arrays.sort(s, comprator);
+//            System.out.print(Arrays.toString(s));
+//        }
+//
+//
+////        lexems = allTextList.stream().filter(s -> s.contains(str)).collect(Collectors.toList());
+////lexems.sort(comprator);
+//
+//        System.out.println(lexems);
+//        return lexems;
+//    }
 
 
 }
