@@ -28,6 +28,4 @@ public class Main {
                 .sorted((x,y) -> (int)x.getCostTour() - (int)y.getCostTour())
                 .forEach(System.out::println);
     }
-
-
 }
