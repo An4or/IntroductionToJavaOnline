@@ -2,6 +2,9 @@ package by.yakovtsev.introduction.basics_oop_5.task1;
 
 import java.io.IOException;
 
+//Задача 1.
+//Создать объект класса Текстовый файл, используя классы Файл, Директория. Методы: создать, переименовать,
+//вывести на консоль содержимое, дополнить, удалить.
 public class Main {
     public static void main(String[] args) throws IOException {
         Directoire directoire = new Directoire("src/resources/text/text2");

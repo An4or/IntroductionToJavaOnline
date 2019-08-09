@@ -2,8 +2,7 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import by.yakovtsev.introduction.ConsoleHelper;
 
-import java.util.Arrays;
-
+//15. Найдите наибольший элемент матрицы и заменить все нечетные элементы на него.
 public class Task15 {
 
     public static void main(String[] args) {

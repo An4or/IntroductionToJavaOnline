@@ -2,6 +2,8 @@ package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
 import java.util.Arrays;
 
+//10. Дано натуральное число N. Написать метод(методы) для формирования массива, элементами которого
+//являются цифры числа N.
 public class Task10 {
 
     public static void main(String[] args) {

@@ -3,7 +3,10 @@ package by.yakovtsev.introduction.algorithmization_2.decomposition;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Test14 {
+//14. Натуральное число, в записи которого n цифр, называется числом Армстронга, если сумма его цифр,
+//возведенная в степень n, равна самому числу. Найти все числа Армстронга от 1 до k. Для решения задачи
+//использовать декомпозицию.
+public class Task14 {
     public static void main(String args[]) {
 
         int t[] = findAmstrNum(4_483_647L);

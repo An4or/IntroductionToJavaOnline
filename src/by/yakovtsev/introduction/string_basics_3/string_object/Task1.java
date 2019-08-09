@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.string_basics_3.string_object;
 
+//1. Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в нем.
 public class Task1 {
     public static void main(String[] args) {
         String str = "  Hi   hi 2  33 />?          and  hi  ";

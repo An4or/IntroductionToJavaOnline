@@ -3,6 +3,9 @@ package by.yakovtsev.introduction.programming_with_classes_4.aggregation_composi
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//5. Туристические путевки. Сформировать набор предложений клиенту по выбору туристической путевки
+//различного типа (отдых, экскурсии, лечение, шопинг, круиз и т. д.) для оптимального выбора. Учитывать
+//возможность выбора транспорта, питания и числа дней. Реализовать выбор и сортировку путевок.
 public class Main {
 
     public static void main(String[] args) {

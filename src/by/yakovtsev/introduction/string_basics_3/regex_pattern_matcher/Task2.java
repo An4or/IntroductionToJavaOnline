@@ -8,6 +8,26 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/*
+2. Дана строка, содержащая следующий текст (xml-документ):
+<notes>
+    <note id = "1">
+        <to>Вася</to>
+        <from>Света</from>
+        <heading>Напоминание</heading>
+        <body>Позвони мне завтра!</body>
+    </note>
+    <note id = "2">
+        <to>Петя</to>
+        <from>Маша</from>
+        <heading>Важное напоминание</heading>
+        <body/>
+    </note>
+</notes>
+Напишите анализатор, позволяющий последовательно возвращать содержимое узлов xml-документа и его тип (открывающий
+тег, закрывающий тег, содержимое тега, тег без тела). Пользоваться готовыми парсерами XML для решения данной задачи
+нельзя.
+*/
 public class Task2 {
     private static final String XML_SPLIT_REGEX = "((?<open><[^/>]+?>)(?<body>.+?)(?<close></.+?>))|(?<openOnly><[^/>]+?>)|(?<closeOnly></.+?>)|(?<noBody><.+? />)|";
     private List<String> allXmlTextList;

@@ -2,6 +2,8 @@ package by.yakovtsev.introduction.algorithmization_2.array_sort;
 
 import java.util.Arrays;
 
+//8.Даны дроби/ Составить программу, которая приводит эти дроби к общему
+//знаменателю и упорядочивает их в порядке возрастания.
 public class Task8 {
 
     public static void main(String[] args) {

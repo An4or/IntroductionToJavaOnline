@@ -2,6 +2,8 @@ package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
 import java.util.Arrays;
 
+//12. Даны натуральные числа К и N. Написать метод(методы) формирования массива А, элементами которого
+//являются числа, сумма цифр которых равна К и которые не большее N.
 public class Task12 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(arrayFillSumm(15, 12, 800)));

@@ -2,6 +2,7 @@ package by.yakovtsev.introduction.string_basics_3.string_array;
 
 import java.util.Arrays;
 
+//4. В строке найти количество чисел.
 public class Task4 {
     public static void main(String[] args) {
         String str = "1Test345 34 test 234 234test234 dkjsadl 44343";

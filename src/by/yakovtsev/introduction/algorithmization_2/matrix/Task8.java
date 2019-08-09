@@ -2,8 +2,9 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import by.yakovtsev.introduction.ConsoleHelper;
 
-import java.util.Arrays;
-
+//8. В числовой матрице поменять местами два столбца любых столбца, т. е. все элементы одного столбца поставить
+//на соответствующие им позиции другого, а его элементы второго переместить в первый. Номера столбцов вводит
+//пользователь с клавиатуры.
 public class Task8 {
 
     public static void main(String[] args) {

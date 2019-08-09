@@ -1,5 +1,7 @@
 package by.yakovtsev.introduction.algorithmization_2.array;
 
+//3. Дан массив действительных чисел, размерность которого N. Подсчитать, сколько в нем отрицательных,
+//положительных и нулевых элементов.
 public class Task3 {
     public static void main(String[] args) {
         countElement(59);

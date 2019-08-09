@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.string_basics_3.string_object;
 
+//3. Проверить, является ли заданное слово палиндромом.
 public class Task3 {
     public static void main(String[] args) {
         isPalindrome("шалаш");

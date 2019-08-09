@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.string_basics_3.string_object;
 
+//6. Из заданной строки получить новую, повторив каждый символ дважды.
 public class Task6 {
     public static void main(String[] args) {
         String str = "Repeated injections would cause fever, and abscesses at the site.";

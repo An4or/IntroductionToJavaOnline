@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.string_basics_3.string_object;
 
+//4. С помощью функции копирования и операции конкатенации составить из частей слова “информатика” слово “торт”.
 public class Task4 {
     public static void main(String[] args) {
         isWord("информатика", "торт");

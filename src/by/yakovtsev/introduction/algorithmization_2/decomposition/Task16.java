@@ -1,5 +1,7 @@
 package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
+//16. Написать программу, определяющую сумму n - значных чисел, содержащих только нечетные цифры.
+//Определить также, сколько четных цифр в найденной сумме. Для решения задачи использовать декомпозицию.
 public class Task16 {
     public static void main(String[] args) {
         int number = 799999224;

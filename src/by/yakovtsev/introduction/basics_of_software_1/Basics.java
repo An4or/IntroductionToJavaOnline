@@ -1,7 +1,5 @@
 package by.yakovtsev.introduction.basics_of_software_1;
 
-import by.yakovtsev.introduction.ConsoleHelper;
-
 import java.awt.*;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -40,21 +38,26 @@ public class Basics {
     }
 
     //Линейные программы task1-task6
+    //1.Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
     public static void task1(double a, double b, double c) {
         double z = ((a - 3) * b / 2) + c;
         System.out.println("z = " + z);
     }
 
+    //2.Вычислить значение выражения по формуле (все переменные принимают действительные значения):
     public static void task2(double a, double b, double c) {
         double res = (b + Math.sqrt((Math.pow(b, 2) + 4 * a * c)) / (2 * a)) - (Math.pow(a, 3) * c + Math.pow(b, -2));
         System.out.println("result = " + res);
     }
 
+    //3.Вычислить значение выражения по формуле (все переменные принимают действительные значения)
     public static void task3(double x, double y) {
         double res = ((Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y))) * Math.tan(x * y);
         System.out.println("result = " + res);
     }
 
+    //4.Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях). Поменять местами
+    //дробную и целую части числа и вывести полученное значение числа.
     public static void task4(double a) {
         int n = (int) a;
         double d = (a - n) * 1000;
@@ -62,6 +65,9 @@ public class Basics {
         System.out.println("result = " + res.setScale(3, BigDecimal.ROUND_CEILING));
     }
 
+    //5.Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести
+    //данное значение длительности в часах, минутах и секундах в следующей форме:
+    //ННч ММмин SSc.
     public static void task5(int t) {
         int input = t;
         int hours = (input % 86400) / 3600;
@@ -70,6 +76,8 @@ public class Basics {
         System.out.println(hours + "ч " + minutes + "мин " + seconds + "с");
     }
 
+    //6.Для данной области составить линейную программу, которая печатает true, если точка с координатами (х, у)
+    //принадлежит закрашенной области, и false — в противном случае
     public static void task6(int x, int y) {
         boolean left = (x >= -2 && x <= 2 && y >= -3 && y <= 4);
         boolean right = ((x >= -4 && x <= 4 && y >= -3 && y <= 0));
@@ -77,6 +85,8 @@ public class Basics {
     }
 
     //Ветвления task21-task25
+    //1.Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли
+    //он прямоугольным.
     public static void task21(double firstCorn, double secondCorn) {
         double sumCorn = firstCorn + secondCorn;
         if (sumCorn > 0 && sumCorn < 180) {
@@ -94,10 +104,12 @@ public class Basics {
         }
     }
 
+    //2.Найти max{min(a, b), min(c, d)}.
     public static void task22(int a, int b, int c, int d) {
         System.out.println(Math.max(Math.min(a, b), Math.min(c, d)));
     }
 
+    //3.Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
     public static void task23(Point a, Point b, Point c) {
         String oneStraight = "точки на одной прямой";
         String notStraight = "точки не на одной прямой";
@@ -114,6 +126,8 @@ public class Basics {
         System.out.println(res);
     }
 
+    //4.Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через
+    //отверстие.
     public static void task24(int a, int b) {
         int x = 120;
         int y = 65;
@@ -130,12 +144,15 @@ public class Basics {
         }
     }
 
+    //5.Вычислить значение функции.
     public static void task25(double x) {
         double res = (x <= 3 ? Math.pow(x, 2) - 3 * x + 9 : 1 / (Math.pow(x, 3) + 6));
         System.out.println(res);
     }
 
     //Циклы task31-task38
+    //1.Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует
+    //все числа от 1 до введенного пользователем числа.
     public static void task31(int x) {
         int summ = 0;
         for (int i = 1; i <= x; i++) {
@@ -144,6 +161,7 @@ public class Basics {
         System.out.println(summ);
     }
 
+    //2.Вычислить значения функции на отрезке [а,b] c шагом h
     public static void task32(double firstX, double lastX, double stepH) {
         while (firstX <= lastX && lastX >= firstX) {
             double result = (firstX > 2 ? firstX : -firstX);
@@ -152,6 +170,7 @@ public class Basics {
         }
     }
 
+    //3.Найти сумму квадратов первых ста чисел.
     public static void task33() {
         int summ = 0;
         for (int i = 1; i <= 100; i++) {
@@ -160,6 +179,7 @@ public class Basics {
         System.out.println(summ);
     }
 
+    //4.Составить программу нахождения произведения квадратов первых двухсот чисел.
     public static void task34() {
         BigInteger summ = new BigInteger("0");
         BigInteger res = new BigInteger("1");
@@ -171,6 +191,8 @@ public class Basics {
         System.out.println(res);
     }
 
+    //5.Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль которых больше или равен
+    //заданному е. Общий член ряда имеет вид.
     public static void task35(int rowLength, double e) {
         double summ = 0;
         for (int i = 1; i <= rowLength; i++) {
@@ -184,6 +206,7 @@ public class Basics {
         System.out.println("result " + summ);
     }
 
+    //6.Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.
     public static void task36() {
         String symbol = "Выводим соответствии между символами...";
         for (int i = 0; i < symbol.length(); i++) {
@@ -191,6 +214,8 @@ public class Basics {
             }
     }
 
+    //7.Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
+    //m и n вводятся с клавиатуры.
     public static void task37(int m, int n) {
         while (m < n){
             m++;
@@ -202,6 +227,7 @@ public class Basics {
         }
     }
 
+    //8.Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
     public static void task38(int firstNumber, int secondNumber) {
         int firstCounter = 0;
         int firstNumberForLength = firstNumber;

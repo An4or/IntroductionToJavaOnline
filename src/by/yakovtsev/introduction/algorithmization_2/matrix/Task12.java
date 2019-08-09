@@ -4,6 +4,7 @@ import by.yakovtsev.introduction.ConsoleHelper;
 
 import java.util.Arrays;
 
+//12. Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
 public class Task12 {
 
     public static void main(String[] args) {

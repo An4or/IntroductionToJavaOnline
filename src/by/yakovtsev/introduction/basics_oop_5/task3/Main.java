@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.MonthDay;
 
+//Задача 3.
+//Создать класс Календарь с внутренним классом, с помощью объектов которого можно хранить информацию о
+//выходных и праздничных днях.
 public class Main {
 
     public static void main(String[] args) {

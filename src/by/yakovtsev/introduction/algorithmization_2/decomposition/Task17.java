@@ -1,5 +1,7 @@
 package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
+//17. Из заданного числа вычли сумму его цифр. Из результата вновь вычли сумму его цифр и т.д. Сколько таких
+//действий надо произвести, чтобы получился нуль? Для решения задачи использовать декомпозицию.
 public class Task17 {
 
     public static void main(String[] args){

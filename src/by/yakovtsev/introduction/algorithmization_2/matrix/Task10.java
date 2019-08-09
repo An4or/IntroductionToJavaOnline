@@ -2,8 +2,7 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import by.yakovtsev.introduction.ConsoleHelper;
 
-import java.util.Arrays;
-
+//10. Найти положительные элементы главной диагонали квадратной матрицы.
 public class Task10 {
 
     public static void main(String[] args) {

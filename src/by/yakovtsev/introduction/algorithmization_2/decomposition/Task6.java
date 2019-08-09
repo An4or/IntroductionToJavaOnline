@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
+//6. Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.
 public class Task6 {
 
     public static void main(String[] args) {

@@ -2,6 +2,8 @@ package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
 import java.util.Arrays;
 
+//5. Составить программу, которая в массиве A[N] находит второе по величине число (вывести на печать число,
+//которое меньше максимального элемента массива, но больше всех других элементов).
 public class Task5 {
     public static void main(String[] args) {
         serchPreMaxNum(20);

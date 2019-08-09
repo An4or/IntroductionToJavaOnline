@@ -1,5 +1,7 @@
 package by.yakovtsev.introduction.programming_with_classes_4.aggregation_composition.task3;
 
+//3. Создать объект класса Государство, используя классы Область, Район, Город. Методы: вывести на консоль
+//столицу, количество областей, площадь, областные центры.
 public class Main {
 
     public static void main(String[] args) {

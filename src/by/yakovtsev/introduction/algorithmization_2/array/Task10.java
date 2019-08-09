@@ -2,6 +2,8 @@ package by.yakovtsev.introduction.algorithmization_2.array;
 
 import java.util.Arrays;
 
+//10. Дан целочисленный массив с количеством элементов п. Сжать массив, выбросив из него каждый второй
+//элемент (освободившиеся элементы заполнить нулями). Примечание. Дополнительный массив не использовать.
 public class Task10 {
 
     public static void main(String[] args) {

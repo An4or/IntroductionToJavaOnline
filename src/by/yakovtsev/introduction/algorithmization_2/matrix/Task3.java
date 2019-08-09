@@ -2,6 +2,7 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import java.util.Arrays;
 
+//3. Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
 public class Task3 {
 
     public static void main(String[] args) {

@@ -3,6 +3,7 @@ package by.yakovtsev.introduction.string_basics_3.string_array;
 
 import java.util.Arrays;
 
+//1. Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
 public class Task1 {
     public static void main(String[] args) {
         camelInSnake();

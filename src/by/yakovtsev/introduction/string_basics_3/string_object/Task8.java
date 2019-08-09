@@ -1,5 +1,7 @@
 package by.yakovtsev.introduction.string_basics_3.string_object;
 
+//8. Вводится строка слов, разделенных пробелами. Найти самое длинное слово и вывести его на экран. Случай, когда самых
+//длинных слов может быть несколько, не обрабатывать.
 public class Task8 {
     public static void main(String[] args) {
         String str = "Repeated injections would cause fever and or";

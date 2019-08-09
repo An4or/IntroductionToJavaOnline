@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.algorithmization_2.array;
 
+//5. Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для которых аi > i.
 public class Task5 {
     public static void main(String[] args) {
         writeNumbers(20);

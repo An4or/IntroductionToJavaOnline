@@ -2,8 +2,7 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import by.yakovtsev.introduction.ConsoleHelper;
 
-import java.util.Arrays;
-
+//13. Отсотрировать стобцы матрицы по возрастанию и убыванию значений эементов.
 public class Task13 {
 
     public static void main(String[] args) {

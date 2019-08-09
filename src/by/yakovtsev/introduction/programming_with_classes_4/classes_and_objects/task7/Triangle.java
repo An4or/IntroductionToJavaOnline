@@ -1,5 +1,7 @@
 package by.yakovtsev.introduction.programming_with_classes_4.classes_and_objects.task7;
 
+//7. Описать класс, представляющий треугольник. Предусмотреть методы для создания объектов, вычисления
+//площади, периметра и точки пересечения медиан.
 public class Triangle {
     private double sideA;
     private double sideB;

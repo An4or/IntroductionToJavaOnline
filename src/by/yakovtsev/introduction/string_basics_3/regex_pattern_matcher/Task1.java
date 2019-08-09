@@ -9,6 +9,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+//1. Cоздать приложение, разбирающее текст (текст хранится в строке) и позволяющее выполнять с текстом три различных
+//операции: отсортировать абзацы по количеству предложений; в каждом предложении отсортировать слова по длине;
+//отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, а в случае равенства – по
+//алфавиту.
 public class Task1 {
     private static final String PARAGRAPH_SPLIT_REGEX = "(?m)(?!\\A)(?=\\s{4})";
     private static final String SENTENCE_SPLIT_REGEX = "(?<=\\.|\\?)\\s(?=[A-Z])";

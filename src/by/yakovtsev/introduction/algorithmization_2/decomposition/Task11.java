@@ -1,5 +1,6 @@
 package by.yakovtsev.introduction.algorithmization_2.decomposition;
 
+//11. Написать метод(методы), определяющий, в каком из данных двух чисел больше цифр.
 public class Task11 {
 
     public static void main(String[] args) {

@@ -2,6 +2,7 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import java.util.Arrays;
 
+//5. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное)
 public class Task5 {
 
     public static void main(String[] args) {

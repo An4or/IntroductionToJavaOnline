@@ -1,5 +1,8 @@
 package by.yakovtsev.introduction.programming_with_classes_4.classes_and_objects.task2;
 
+//2. Создйте класс Test2 двумя переменными. Добавьте конструктор с входными параметрами. Добавьте
+//конструктор, инициализирующий члены класса по умолчанию. Добавьте set- и get- методы для полей экземпляра
+//класса.
 public class Test2 {
     private int val1;
     private int val2;

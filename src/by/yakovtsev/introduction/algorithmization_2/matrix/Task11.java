@@ -2,8 +2,8 @@ package by.yakovtsev.introduction.algorithmization_2.matrix;
 
 import by.yakovtsev.introduction.ConsoleHelper;
 
-import java.util.Arrays;
-
+//11. Матрицу 10x20 заполнить случайными числами от 0 до 15. Вывести на экран саму матрицу и номера строк, в
+//которых число 5 встречается три и более раз.
 public class Task11 {
 
     public static void main(String[] args) {
