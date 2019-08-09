@@ -4,4 +4,6 @@ public interface Treasure {
     TreasureType getTreasureType();
     String getName();
     double getCost();
+
+
 }
