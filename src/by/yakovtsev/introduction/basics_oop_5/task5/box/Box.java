@@ -4,6 +4,7 @@ import by.yakovtsev.introduction.basics_oop_5.task5.sweetness.Sweetness;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public abstract class Box {
     private List<Sweetness> sweetnessList = new ArrayList<>();
@@ -35,5 +36,17 @@ public abstract class Box {
         );
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Box box = (Box) o;
+        return Objects.equals(sweetnessList, box.sweetnessList);
+    }
 
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(sweetnessList);
+    }
 }

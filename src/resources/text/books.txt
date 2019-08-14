@@ -1,0 +1,16 @@
+p
+Title1
+Author1
+Publisher1
+1999
+p
+Title2
+Author2
+Publisher3
+1997
+e
+Title3
+Author3
+Publisher3
+2005
+etc

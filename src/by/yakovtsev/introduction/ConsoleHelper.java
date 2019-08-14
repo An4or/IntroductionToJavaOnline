@@ -18,7 +18,7 @@ public class ConsoleHelper {
             String string = bufferedReader.readLine();
             return string;
         } catch (IOException e) {
-            System.out.println("Произошла ошибка при попытке ввода текста. Попробуйте еще раз.");
+            System.out.println("An error occurred while trying to enter text. Try again.");
             return readString();
         }
     }
@@ -28,7 +28,7 @@ public class ConsoleHelper {
             int i = Integer.parseInt(readString());
             return i;
         } catch (NumberFormatException e) {
-            System.out.println("Произошла ошибка при попытке ввода числа. Попробуйте еще раз.");
+            System.out.println("An error occurred while trying to enter a number. Try again.");
             return readInt();
         }
 
@@ -39,7 +39,7 @@ public class ConsoleHelper {
             double i = Double.parseDouble(readString());
             return i;
         } catch (NumberFormatException e) {
-            System.out.println("Произошла ошибка при попытке ввода числа. Попробуйте еще раз.");
+            System.out.println("An error occurred while trying to enter a number. Try again.");
             return readDouble();
         }
     }
